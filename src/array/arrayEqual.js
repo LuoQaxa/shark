@@ -3,7 +3,8 @@
  * @param {*} arr1 
  * @param {*} arr2 
  */
-export function arrayEqual(arr1, arr2) {
+// export
+function arrayEqual(arr1, arr2) {
   if (arr1.length !== arr2.length) {
     return false;
   }
@@ -15,4 +16,4 @@ export function arrayEqual(arr1, arr2) {
   return true
 }
 
-// module.exports = arrayEqual
+module.exports = arrayEqual
